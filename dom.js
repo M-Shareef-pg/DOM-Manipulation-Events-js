@@ -45,3 +45,18 @@ console.log(collection.innerText);
 let cNode = document.querySelector("#commentnode").firstChild;
 console.log(cNode);
 
+//innerhtml
+
+let nav = document.querySelector(".navbar")
+console.dir(nav);
+console.log(nav.innerHTML);
+
+
+let Or = document.querySelector("#original");
+let finally_Or = Or.innerText = "Hello Beautiful mars";
+console.log(finally_Or);
+
+let yup = document.querySelector("#txt_content");
+console.dir(yup);
+let veryfinal = yup.textContent;
+console.log(veryfinal);
