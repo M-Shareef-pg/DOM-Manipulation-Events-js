@@ -21,3 +21,15 @@ console.log(anchor.innerText);
 let bs = anchor.innerText + " World";
 console.log(bs);
 
+
+// getAttribute and add setAttribut
+let btn = document.getElementById("submitBtn");
+console.log(btn);
+let setValue = btn.getAttribute("id");
+console.log(setValue);
+
+let changeValue = btn.setAttribute("id", "bigBtn");
+console.log(changeValue);
+
+
+
