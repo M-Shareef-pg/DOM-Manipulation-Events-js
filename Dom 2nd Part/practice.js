@@ -13,3 +13,11 @@ for (let i = 0; i<divs.length; i++){
 // let onediv = unique[0].innerText = "I am not that first div"; 
 // let seconddiv = unique[1].innerText = "I am not that second div";
 // let thirddiv = unique[2].innerText = "I am not that third div";
+
+
+let anchor = document.querySelector("#form");
+console.dir(anchor);
+console.log(anchor.innerText);
+let bs = anchor.innerText + " World";
+console.log(bs);
+
