@@ -24,7 +24,7 @@ console.log(bs);
 
 // getAttribute and add setAttribut
 let btn = document.getElementById("submitBtn");
-console.log(btn);
+console.log(btn);   
 let setValue = btn.getAttribute("id");
 console.log(setValue);
 
