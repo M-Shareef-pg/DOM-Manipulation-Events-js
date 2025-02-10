@@ -1,0 +1,11 @@
+.para{
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+}
+
+.newpara{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
